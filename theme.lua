@@ -44,7 +44,7 @@ function lines_from(file)
 end
 
 -- tests the functions above
-local file = "/home/leonch/.config/awesome/themes/quantumfate-mobile/colors"
+local file = "/home/leonch/.config/awesome/themes/quantum-mobile/colors"
 -- os.getenv("HOME") .. themes_path .. 'colors'
 local colors = lines_from(file)
 
@@ -76,7 +76,7 @@ theme.color15 = colors.color15
 
 -- number of available tags (dont do more than 9)
 theme.tag_count = 5
-theme.dir = config_dir .. theme_dir .. "quantumfate/"
+theme.dir = config_dir .. theme_dir .. "quantum-mobile/"
 theme.wallpaper_dir = theme.dir .. "wallpaper/"
 -- Wallpaper for horizontal rotation
 theme.wallpaper_horizontal = theme.wallpaper_dir .. "horizontal_wallpaper.jpg"
